@@ -11,6 +11,7 @@ Antique Book Scan uses Optical Character Recognition technology to get the title
 Simply take a picture of a book cover or select from your image library. There are two OCR providers available: if the fast OCR option does not produce accurate results, simply select the slower yet much more accurate one.
 
 ## Installation
+Open a terminal window, navigate to the project directory, and run:
 
 ```ruby
 pod install
