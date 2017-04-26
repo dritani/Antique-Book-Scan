@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E1A491E1E915CBF003CB7B8 /* getting books.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1A491C1E915CBF003CB7B8 /* getting books.png */; };
+		6E1A491F1E915CBF003CB7B8 /* no books found.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1A491D1E915CBF003CB7B8 /* no books found.png */; };
+		6E1A49211E9160DD003CB7B8 /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1A49201E9160DD003CB7B8 /* backButton.png */; };
+		6E24273A1E8C71BE00BF1BA4 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2427391E8C71BE00BF1BA4 /* LoadingViewController.swift */; };
+		6E2890C71E89A2BB008504F6 /* 5love.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2890C41E89A2BB008504F6 /* 5love.png */; };
+		6E2890C81E89A2BB008504F6 /* lilac.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2890C51E89A2BB008504F6 /* lilac.png */; };
+		6E2890C91E89A2BB008504F6 /* leap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E2890C61E89A2BB008504F6 /* leap.jpg */; };
+		6E51717C1E789CAD00E41406 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E51717B1E789CAD00E41406 /* AppDelegate.swift */; };
+		6E51717E1E789CAD00E41406 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E51717D1E789CAD00E41406 /* CameraViewController.swift */; };
+		6E5171831E789CAD00E41406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E5171821E789CAD00E41406 /* Assets.xcassets */; };
+		6E52E5091EB0B0A40061BB65 /* clipboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E52E5081EB0B0A40061BB65 /* clipboard.png */; };
+		6E62B2CA1E91BA4A007CD586 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E62B2C91E91BA4A007CD586 /* GoogleService-Info.plist */; };
+		6E68EA061E8B5AB200F16F77 /* default cover.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E68EA051E8B5AB200F16F77 /* default cover.png */; };
+		6E68EA181E8C174100F16F77 /* left off.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E68EA141E8C174100F16F77 /* left off.png */; };
+		6E68EA191E8C174100F16F77 /* left on.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E68EA151E8C174100F16F77 /* left on.png */; };
+		6E68EA1A1E8C174100F16F77 /* right on.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E68EA161E8C174100F16F77 /* right on.png */; };
+		6E68EA1B1E8C174100F16F77 /* right off.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E68EA171E8C174100F16F77 /* right off.png */; };
+		6E7751011E86805F001D1486 /* CameraSessionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7750E61E86805F001D1486 /* CameraSessionView.m */; };
+		6E7751021E86805F001D1486 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7750E91E86805F001D1486 /* Constants.m */; };
+		6E7751031E86805F001D1486 /* CaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7750EB1E86805F001D1486 /* CaptureSessionManager.m */; };
+		6E7751041E86805F001D1486 /* Cool Camera Mockup.sketch in Resources */ = {isa = PBXBuildFile; fileRef = 6E7750ED1E86805F001D1486 /* Cool Camera Mockup.sketch */; };
+		6E7751051E86805F001D1486 /* PaintCodeFile.pcvd in Resources */ = {isa = PBXBuildFile; fileRef = 6E7750EE1E86805F001D1486 /* PaintCodeFile.pcvd */; };
+		6E7751061E86805F001D1486 /* CameraShutterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7750F01E86805F001D1486 /* CameraShutterButton.m */; };
+		6E7751071E86805F001D1486 /* CameraFlashButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7750F21E86805F001D1486 /* CameraFlashButton.m */; };
+		6E7751081E86805F001D1486 /* CameraToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7750F41E86805F001D1486 /* CameraToggleButton.m */; };
+		6E7751091E86805F001D1486 /* CameraDismissButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7750F61E86805F001D1486 /* CameraDismissButton.m */; };
+		6E77510A1E86805F001D1486 /* CameraFocalReticule.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7750F81E86805F001D1486 /* CameraFocalReticule.m */; };
+		6E77510B1E86805F001D1486 /* LaunchCameraButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7750FA1E86805F001D1486 /* LaunchCameraButton.m */; };
+		6E77510C1E86805F001D1486 /* CameraStyleKitClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7750FD1E86805F001D1486 /* CameraStyleKitClass.m */; };
+		6E7751161E8698E7001D1486 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7751151E8698E7001D1486 /* ResultsViewController.swift */; };
+		6E7751181E86A3D1001D1486 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7751171E86A3D1001D1486 /* Networking.swift */; };
+		6E8395C01E892F99007ADD7E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8395BA1E892F99007ADD7E /* Constants.swift */; };
+		6E8395C11E892F99007ADD7E /* OCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8395BB1E892F99007ADD7E /* OCR.swift */; };
+		6E8395C21E892F99007ADD7E /* Google Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8395BC1E892F99007ADD7E /* Google Books.swift */; };
+		6E8395C31E892F99007ADD7E /* Marketplace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8395BD1E892F99007ADD7E /* Marketplace.swift */; };
+		6E8395C41E892F99007ADD7E /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8395BE1E892F99007ADD7E /* XMLParser.swift */; };
+		6EB9663E1E8B29610003D2C3 /* Extra Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB9663D1E8B29610003D2C3 /* Extra Code.swift */; };
+		6EB966481E8B3E530003D2C3 /* abebooks logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EB966431E8B3E530003D2C3 /* abebooks logo.jpg */; };
+		6EB966491E8B3E530003D2C3 /* alibris logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EB966441E8B3E530003D2C3 /* alibris logo.png */; };
+		6EB9664A1E8B3E530003D2C3 /* amazon logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EB966451E8B3E530003D2C3 /* amazon logo.jpg */; };
+		6EB9664B1E8B3E530003D2C3 /* barnes and noble logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EB966461E8B3E530003D2C3 /* barnes and noble logo.png */; };
+		6EB9664C1E8B3E530003D2C3 /* ebay logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EB966471E8B3E530003D2C3 /* ebay logo.png */; };
+		6EB9664E1E8B41D40003D2C3 /* resultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB9664D1E8B41D40003D2C3 /* resultTableViewCell.swift */; };
+		6EDB12DE1E8AADD3004B3EFA /* photoAlbum.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EDB12DD1E8AADD3004B3EFA /* photoAlbum.png */; };
+		C88068C982C60C53918E6D8D /* Pods_Antique_Book_Scan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FB6470BA0CB9D2A22455AF /* Pods_Antique_Book_Scan.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52FB6470BA0CB9D2A22455AF /* Pods_Antique_Book_Scan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Antique_Book_Scan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E1A0C081E8E9D2A009490F1 /* CocoaImageHashing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaImageHashing.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/Antique_Book_Scan-dagqkltkbetcbmbxbnybbzltweod/Build/Products/Debug-iphonesimulator/CocoaImageHashing/CocoaImageHashing.framework"; sourceTree = "<group>"; };
+		6E1A491C1E915CBF003CB7B8 /* getting books.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "getting books.png"; sourceTree = "<group>"; };
+		6E1A491D1E915CBF003CB7B8 /* no books found.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no books found.png"; sourceTree = "<group>"; };
+		6E1A49201E9160DD003CB7B8 /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
+		6E2427391E8C71BE00BF1BA4 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		6E2890C41E89A2BB008504F6 /* 5love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5love.png; sourceTree = "<group>"; };
+		6E2890C51E89A2BB008504F6 /* lilac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lilac.png; sourceTree = "<group>"; };
+		6E2890C61E89A2BB008504F6 /* leap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = leap.jpg; sourceTree = "<group>"; };
+		6E5171781E789CAD00E41406 /* Antique Book Scan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Antique Book Scan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E51717B1E789CAD00E41406 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E51717D1E789CAD00E41406 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		6E5171821E789CAD00E41406 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E5171871E789CAD00E41406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E52E5081EB0B0A40061BB65 /* clipboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clipboard.png; sourceTree = "<group>"; };
+		6E62B2C91E91BA4A007CD586 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6E68EA051E8B5AB200F16F77 /* default cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default cover.png"; sourceTree = "<group>"; };
+		6E68EA141E8C174100F16F77 /* left off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left off.png"; sourceTree = "<group>"; };
+		6E68EA151E8C174100F16F77 /* left on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left on.png"; sourceTree = "<group>"; };
+		6E68EA161E8C174100F16F77 /* right on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right on.png"; sourceTree = "<group>"; };
+		6E68EA171E8C174100F16F77 /* right off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right off.png"; sourceTree = "<group>"; };
+		6E7388291E8EA4BE0015427B /* CocoaImageHashing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaImageHashing.framework; path = Carthage/Build/iOS/CocoaImageHashing.framework; sourceTree = "<group>"; };
+		6E7750E51E86805F001D1486 /* CameraSessionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraSessionView.h; sourceTree = "<group>"; };
+		6E7750E61E86805F001D1486 /* CameraSessionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraSessionView.m; sourceTree = "<group>"; };
+		6E7750E81E86805F001D1486 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		6E7750E91E86805F001D1486 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		6E7750EA1E86805F001D1486 /* CaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureSessionManager.h; sourceTree = "<group>"; };
+		6E7750EB1E86805F001D1486 /* CaptureSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureSessionManager.m; sourceTree = "<group>"; };
+		6E7750ED1E86805F001D1486 /* Cool Camera Mockup.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cool Camera Mockup.sketch"; sourceTree = "<group>"; };
+		6E7750EE1E86805F001D1486 /* PaintCodeFile.pcvd */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = PaintCodeFile.pcvd; sourceTree = "<group>"; };
+		6E7750EF1E86805F001D1486 /* CameraShutterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraShutterButton.h; sourceTree = "<group>"; };
+		6E7750F01E86805F001D1486 /* CameraShutterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraShutterButton.m; sourceTree = "<group>"; };
+		6E7750F11E86805F001D1486 /* CameraFlashButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraFlashButton.h; sourceTree = "<group>"; };
+		6E7750F21E86805F001D1486 /* CameraFlashButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraFlashButton.m; sourceTree = "<group>"; };
+		6E7750F31E86805F001D1486 /* CameraToggleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraToggleButton.h; sourceTree = "<group>"; };
+		6E7750F41E86805F001D1486 /* CameraToggleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraToggleButton.m; sourceTree = "<group>"; };
+		6E7750F51E86805F001D1486 /* CameraDismissButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraDismissButton.h; sourceTree = "<group>"; };
+		6E7750F61E86805F001D1486 /* CameraDismissButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraDismissButton.m; sourceTree = "<group>"; };
+		6E7750F71E86805F001D1486 /* CameraFocalReticule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraFocalReticule.h; sourceTree = "<group>"; };
+		6E7750F81E86805F001D1486 /* CameraFocalReticule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraFocalReticule.m; sourceTree = "<group>"; };
+		6E7750F91E86805F001D1486 /* LaunchCameraButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchCameraButton.h; sourceTree = "<group>"; };
+		6E7750FA1E86805F001D1486 /* LaunchCameraButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchCameraButton.m; sourceTree = "<group>"; };
+		6E7750FC1E86805F001D1486 /* CameraStyleKitClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraStyleKitClass.h; sourceTree = "<group>"; };
+		6E7750FD1E86805F001D1486 /* CameraStyleKitClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraStyleKitClass.m; sourceTree = "<group>"; };
+		6E7751121E868343001D1486 /* Antique_Book_Scan-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Antique_Book_Scan-Bridging-Header.h"; sourceTree = "<group>"; };
+		6E7751151E8698E7001D1486 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		6E7751171E86A3D1001D1486 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		6E8395BA1E892F99007ADD7E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6E8395BB1E892F99007ADD7E /* OCR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCR.swift; sourceTree = "<group>"; };
+		6E8395BC1E892F99007ADD7E /* Google Books.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Google Books.swift"; sourceTree = "<group>"; };
+		6E8395BD1E892F99007ADD7E /* Marketplace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Marketplace.swift; sourceTree = "<group>"; };
+		6E8395BE1E892F99007ADD7E /* XMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLParser.swift; sourceTree = "<group>"; };
+		6EB9663D1E8B29610003D2C3 /* Extra Code.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extra Code.swift"; sourceTree = "<group>"; };
+		6EB966431E8B3E530003D2C3 /* abebooks logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "abebooks logo.jpg"; sourceTree = "<group>"; };
+		6EB966441E8B3E530003D2C3 /* alibris logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alibris logo.png"; sourceTree = "<group>"; };
+		6EB966451E8B3E530003D2C3 /* amazon logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "amazon logo.jpg"; sourceTree = "<group>"; };
+		6EB966461E8B3E530003D2C3 /* barnes and noble logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barnes and noble logo.png"; sourceTree = "<group>"; };
+		6EB966471E8B3E530003D2C3 /* ebay logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ebay logo.png"; sourceTree = "<group>"; };
+		6EB9664D1E8B41D40003D2C3 /* resultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resultTableViewCell.swift; sourceTree = "<group>"; };
+		6EDB12DD1E8AADD3004B3EFA /* photoAlbum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photoAlbum.png; sourceTree = "<group>"; };
+		7AAB553B1FEFA90FB81C7C3C /* Pods-Antique Book Scan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Antique Book Scan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Antique Book Scan/Pods-Antique Book Scan.debug.xcconfig"; sourceTree = "<group>"; };
+		B8AC0FE0DA67A278AF8A30C1 /* Pods-Antique Book Scan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Antique Book Scan.release.xcconfig"; path = "Pods/Target Support Files/Pods-Antique Book Scan/Pods-Antique Book Scan.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E5171751E789CAD00E41406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88068C982C60C53918E6D8D /* Pods_Antique_Book_Scan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DB437EE2ED0AD941F5E1A5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E7388291E8EA4BE0015427B /* CocoaImageHashing.framework */,
+				6E1A0C081E8E9D2A009490F1 /* CocoaImageHashing.framework */,
+				52FB6470BA0CB9D2A22455AF /* Pods_Antique_Book_Scan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E51716F1E789CAC00E41406 = {
+			isa = PBXGroup;
+			children = (
+				6E51717A1E789CAD00E41406 /* Antique Book Scan */,
+				6E5171791E789CAD00E41406 /* Products */,
+				EC1610CFFBCEA37C6A4555AA /* Pods */,
+				2DB437EE2ED0AD941F5E1A5B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E5171791E789CAD00E41406 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E5171781E789CAD00E41406 /* Antique Book Scan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E51717A1E789CAD00E41406 /* Antique Book Scan */ = {
+			isa = PBXGroup;
+			children = (
+				6E8395C51E89304D007ADD7E /* 1. Get Photo */,
+				6E8395C61E89305F007ADD7E /* 2. OCR and Google Books */,
+				6E8395C71E89307F007ADD7E /* 3. Marketplace Results */,
+				6E8395C81E8930AC007ADD7E /* Helper */,
+				6E8395C91E8930E1007ADD7E /* Extra */,
+				6E8395CA1E893119007ADD7E /* Images */,
+				6E5171821E789CAD00E41406 /* Assets.xcassets */,
+			);
+			path = "Antique Book Scan";
+			sourceTree = "<group>";
+		};
+		6E68EA071E8B5C9900F16F77 /* ResultsVC */ = {
+			isa = PBXGroup;
+			children = (
+				6EB966421E8B3E3F0003D2C3 /* Market logos */,
+				6E68EA051E8B5AB200F16F77 /* default cover.png */,
+				6E1A491C1E915CBF003CB7B8 /* getting books.png */,
+				6E1A491D1E915CBF003CB7B8 /* no books found.png */,
+				6E1A49201E9160DD003CB7B8 /* backButton.png */,
+				6E52E5081EB0B0A40061BB65 /* clipboard.png */,
+			);
+			name = ResultsVC;
+			sourceTree = "<group>";
+		};
+		6E7750E71E86805F001D1486 /* Camera View */ = {
+			isa = PBXGroup;
+			children = (
+				6E7750E51E86805F001D1486 /* CameraSessionView.h */,
+				6E7750E61E86805F001D1486 /* CameraSessionView.m */,
+			);
+			path = "Camera View";
+			sourceTree = "<group>";
+		};
+		6E7750EC1E86805F001D1486 /* Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6E7750E81E86805F001D1486 /* Constants.h */,
+				6E7750E91E86805F001D1486 /* Constants.m */,
+				6E7750EA1E86805F001D1486 /* CaptureSessionManager.h */,
+				6E7750EB1E86805F001D1486 /* CaptureSessionManager.m */,
+			);
+			path = "Model Classes";
+			sourceTree = "<group>";
+		};
+		6E7750FB1E86805F001D1486 /* CameraViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				6E7750EF1E86805F001D1486 /* CameraShutterButton.h */,
+				6E7750F01E86805F001D1486 /* CameraShutterButton.m */,
+				6E7750F11E86805F001D1486 /* CameraFlashButton.h */,
+				6E7750F21E86805F001D1486 /* CameraFlashButton.m */,
+				6E7750F31E86805F001D1486 /* CameraToggleButton.h */,
+				6E7750F41E86805F001D1486 /* CameraToggleButton.m */,
+				6E7750F51E86805F001D1486 /* CameraDismissButton.h */,
+				6E7750F61E86805F001D1486 /* CameraDismissButton.m */,
+				6E7750F71E86805F001D1486 /* CameraFocalReticule.h */,
+				6E7750F81E86805F001D1486 /* CameraFocalReticule.m */,
+				6E7750F91E86805F001D1486 /* LaunchCameraButton.h */,
+				6E7750FA1E86805F001D1486 /* LaunchCameraButton.m */,
+			);
+			path = CameraViewComponents;
+			sourceTree = "<group>";
+		};
+		6E7750FE1E86805F001D1486 /* UI Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6E7750FC1E86805F001D1486 /* CameraStyleKitClass.h */,
+				6E7750FD1E86805F001D1486 /* CameraStyleKitClass.m */,
+			);
+			path = "UI Assets";
+			sourceTree = "<group>";
+		};
+		6E7750FF1E86805F001D1486 /* Graphical Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6E7750ED1E86805F001D1486 /* Cool Camera Mockup.sketch */,
+				6E7750EE1E86805F001D1486 /* PaintCodeFile.pcvd */,
+				6E7750FB1E86805F001D1486 /* CameraViewComponents */,
+				6E7750FE1E86805F001D1486 /* UI Assets */,
+			);
+			path = "Graphical Assets";
+			sourceTree = "<group>";
+		};
+		6E7751001E86805F001D1486 /* CustomizableCamera */ = {
+			isa = PBXGroup;
+			children = (
+				6E7750E71E86805F001D1486 /* Camera View */,
+				6E7750EC1E86805F001D1486 /* Model Classes */,
+				6E7750FF1E86805F001D1486 /* Graphical Assets */,
+			);
+			path = CustomizableCamera;
+			sourceTree = "<group>";
+		};
+		6E8395C51E89304D007ADD7E /* 1. Get Photo */ = {
+			isa = PBXGroup;
+			children = (
+				6E51717D1E789CAD00E41406 /* CameraViewController.swift */,
+				6E7751001E86805F001D1486 /* CustomizableCamera */,
+			);
+			name = "1. Get Photo";
+			sourceTree = "<group>";
+		};
+		6E8395C61E89305F007ADD7E /* 2. OCR and Google Books */ = {
+			isa = PBXGroup;
+			children = (
+				6E2427391E8C71BE00BF1BA4 /* LoadingViewController.swift */,
+				6E8395BB1E892F99007ADD7E /* OCR.swift */,
+				6E8395BC1E892F99007ADD7E /* Google Books.swift */,
+			);
+			name = "2. OCR and Google Books";
+			sourceTree = "<group>";
+		};
+		6E8395C71E89307F007ADD7E /* 3. Marketplace Results */ = {
+			isa = PBXGroup;
+			children = (
+				6E7751151E8698E7001D1486 /* ResultsViewController.swift */,
+				6EB9664D1E8B41D40003D2C3 /* resultTableViewCell.swift */,
+				6E8395BD1E892F99007ADD7E /* Marketplace.swift */,
+			);
+			name = "3. Marketplace Results";
+			sourceTree = "<group>";
+		};
+		6E8395C81E8930AC007ADD7E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6E8395BA1E892F99007ADD7E /* Constants.swift */,
+				6E7751171E86A3D1001D1486 /* Networking.swift */,
+				6E8395BE1E892F99007ADD7E /* XMLParser.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		6E8395C91E8930E1007ADD7E /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				6E51717B1E789CAD00E41406 /* AppDelegate.swift */,
+				6E7751121E868343001D1486 /* Antique_Book_Scan-Bridging-Header.h */,
+				6E5171871E789CAD00E41406 /* Info.plist */,
+				6E62B2C91E91BA4A007CD586 /* GoogleService-Info.plist */,
+				6EB9663D1E8B29610003D2C3 /* Extra Code.swift */,
+			);
+			name = Extra;
+			sourceTree = "<group>";
+		};
+		6E8395CA1E893119007ADD7E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6EB9663F1E8B3DF20003D2C3 /* CameraVC buttons */,
+				6E68EA071E8B5C9900F16F77 /* ResultsVC */,
+				6EB966401E8B3E060003D2C3 /* Sample book covers */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		6EB9663F1E8B3DF20003D2C3 /* CameraVC buttons */ = {
+			isa = PBXGroup;
+			children = (
+				6E68EA141E8C174100F16F77 /* left off.png */,
+				6E68EA151E8C174100F16F77 /* left on.png */,
+				6E68EA161E8C174100F16F77 /* right on.png */,
+				6E68EA171E8C174100F16F77 /* right off.png */,
+				6EDB12DD1E8AADD3004B3EFA /* photoAlbum.png */,
+			);
+			name = "CameraVC buttons";
+			sourceTree = "<group>";
+		};
+		6EB966401E8B3E060003D2C3 /* Sample book covers */ = {
+			isa = PBXGroup;
+			children = (
+				6E2890C41E89A2BB008504F6 /* 5love.png */,
+				6E2890C51E89A2BB008504F6 /* lilac.png */,
+				6E2890C61E89A2BB008504F6 /* leap.jpg */,
+			);
+			name = "Sample book covers";
+			sourceTree = "<group>";
+		};
+		6EB966421E8B3E3F0003D2C3 /* Market logos */ = {
+			isa = PBXGroup;
+			children = (
+				6EB966431E8B3E530003D2C3 /* abebooks logo.jpg */,
+				6EB966441E8B3E530003D2C3 /* alibris logo.png */,
+				6EB966451E8B3E530003D2C3 /* amazon logo.jpg */,
+				6EB966461E8B3E530003D2C3 /* barnes and noble logo.png */,
+				6EB966471E8B3E530003D2C3 /* ebay logo.png */,
+			);
+			name = "Market logos";
+			sourceTree = "<group>";
+		};
+		EC1610CFFBCEA37C6A4555AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AAB553B1FEFA90FB81C7C3C /* Pods-Antique Book Scan.debug.xcconfig */,
+				B8AC0FE0DA67A278AF8A30C1 /* Pods-Antique Book Scan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E5171771E789CAD00E41406 /* Antique Book Scan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E51718A1E789CAD00E41406 /* Build configuration list for PBXNativeTarget "Antique Book Scan" */;
+			buildPhases = (
+				DF8577228B5A3708CBB938D2 /* [CP] Check Pods Manifest.lock */,
+				6E5171741E789CAD00E41406 /* Sources */,
+				6E5171751E789CAD00E41406 /* Frameworks */,
+				6E5171761E789CAD00E41406 /* Resources */,
+				080FDF2A2BF29EE626AA4E90 /* [CP] Embed Pods Frameworks */,
+				EFF8AFCF84167801B2DD3650 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Antique Book Scan";
+			productName = "Antique Book Scan";
+			productReference = 6E5171781E789CAD00E41406 /* Antique Book Scan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E5171701E789CAD00E41406 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = AquariusLB;
+				TargetAttributes = {
+					6E5171771E789CAD00E41406 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PK3D83SCBL;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 6E5171731E789CAD00E41406 /* Build configuration list for PBXProject "Antique Book Scan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E51716F1E789CAC00E41406;
+			productRefGroup = 6E5171791E789CAD00E41406 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E5171771E789CAD00E41406 /* Antique Book Scan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E5171761E789CAD00E41406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB966491E8B3E530003D2C3 /* alibris logo.png in Resources */,
+				6EB966481E8B3E530003D2C3 /* abebooks logo.jpg in Resources */,
+				6E52E5091EB0B0A40061BB65 /* clipboard.png in Resources */,
+				6E68EA1A1E8C174100F16F77 /* right on.png in Resources */,
+				6E7751051E86805F001D1486 /* PaintCodeFile.pcvd in Resources */,
+				6E68EA061E8B5AB200F16F77 /* default cover.png in Resources */,
+				6E68EA191E8C174100F16F77 /* left on.png in Resources */,
+				6EDB12DE1E8AADD3004B3EFA /* photoAlbum.png in Resources */,
+				6E2890C91E89A2BB008504F6 /* leap.jpg in Resources */,
+				6E5171831E789CAD00E41406 /* Assets.xcassets in Resources */,
+				6EB9664C1E8B3E530003D2C3 /* ebay logo.png in Resources */,
+				6EB9664B1E8B3E530003D2C3 /* barnes and noble logo.png in Resources */,
+				6E1A491F1E915CBF003CB7B8 /* no books found.png in Resources */,
+				6EB9664A1E8B3E530003D2C3 /* amazon logo.jpg in Resources */,
+				6E68EA181E8C174100F16F77 /* left off.png in Resources */,
+				6E7751041E86805F001D1486 /* Cool Camera Mockup.sketch in Resources */,
+				6E68EA1B1E8C174100F16F77 /* right off.png in Resources */,
+				6E2890C71E89A2BB008504F6 /* 5love.png in Resources */,
+				6E1A491E1E915CBF003CB7B8 /* getting books.png in Resources */,
+				6E1A49211E9160DD003CB7B8 /* backButton.png in Resources */,
+				6E2890C81E89A2BB008504F6 /* lilac.png in Resources */,
+				6E62B2CA1E91BA4A007CD586 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		080FDF2A2BF29EE626AA4E90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Antique Book Scan/Pods-Antique Book Scan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF8577228B5A3708CBB938D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFF8AFCF84167801B2DD3650 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Antique Book Scan/Pods-Antique Book Scan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E5171741E789CAD00E41406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E7751091E86805F001D1486 /* CameraDismissButton.m in Sources */,
+				6E8395C31E892F99007ADD7E /* Marketplace.swift in Sources */,
+				6EB9664E1E8B41D40003D2C3 /* resultTableViewCell.swift in Sources */,
+				6E8395C01E892F99007ADD7E /* Constants.swift in Sources */,
+				6E8395C11E892F99007ADD7E /* OCR.swift in Sources */,
+				6E7751061E86805F001D1486 /* CameraShutterButton.m in Sources */,
+				6E7751011E86805F001D1486 /* CameraSessionView.m in Sources */,
+				6E24273A1E8C71BE00BF1BA4 /* LoadingViewController.swift in Sources */,
+				6E7751161E8698E7001D1486 /* ResultsViewController.swift in Sources */,
+				6E77510A1E86805F001D1486 /* CameraFocalReticule.m in Sources */,
+				6E77510C1E86805F001D1486 /* CameraStyleKitClass.m in Sources */,
+				6E7751181E86A3D1001D1486 /* Networking.swift in Sources */,
+				6E77510B1E86805F001D1486 /* LaunchCameraButton.m in Sources */,
+				6E7751071E86805F001D1486 /* CameraFlashButton.m in Sources */,
+				6EB9663E1E8B29610003D2C3 /* Extra Code.swift in Sources */,
+				6E7751031E86805F001D1486 /* CaptureSessionManager.m in Sources */,
+				6E8395C41E892F99007ADD7E /* XMLParser.swift in Sources */,
+				6E51717E1E789CAD00E41406 /* CameraViewController.swift in Sources */,
+				6E51717C1E789CAD00E41406 /* AppDelegate.swift in Sources */,
+				6E8395C21E892F99007ADD7E /* Google Books.swift in Sources */,
+				6E7751081E86805F001D1486 /* CameraToggleButton.m in Sources */,
+				6E7751021E86805F001D1486 /* Constants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6E5171881E789CAD00E41406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8AC0FE0DA67A278AF8A30C1 /* Pods-Antique Book Scan.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dritan Harizaj (PK3D83SCBL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dritan Harizaj (PK3D83SCBL)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E5171891E789CAD00E41406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8AC0FE0DA67A278AF8A30C1 /* Pods-Antique Book Scan.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dritan Harizaj (PK3D83SCBL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dritan Harizaj (PK3D83SCBL)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E51718B1E789CAD00E41406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AAB553B1FEFA90FB81C7C3C /* Pods-Antique Book Scan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dritan Harizaj (PK3D83SCBL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = PK3D83SCBL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Antique\\ Book\\ Scan",
+					"$(PROJECT_DIR)/Antique\\ Book\\ Scan",
+				);
+				INFOPLIST_FILE = "Antique Book Scan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AquariusLB.AntiqueBookScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "396054cf-7bdd-48f3-a137-2d9a9239b04b";
+				PROVISIONING_PROFILE_SPECIFIER = "Antique Book Scan";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "$(SRCROOT)/$(PROJECT_NAME)/$(SWIFT_MODULE_NAME)-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E51718C1E789CAD00E41406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8AC0FE0DA67A278AF8A30C1 /* Pods-Antique Book Scan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dritan Harizaj (PK3D83SCBL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = PK3D83SCBL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Antique\\ Book\\ Scan",
+					"$(PROJECT_DIR)/Antique\\ Book\\ Scan",
+				);
+				INFOPLIST_FILE = "Antique Book Scan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AquariusLB.AntiqueBookScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "396054cf-7bdd-48f3-a137-2d9a9239b04b";
+				PROVISIONING_PROFILE_SPECIFIER = "Antique Book Scan";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "$(SRCROOT)/$(PROJECT_NAME)/$(SWIFT_MODULE_NAME)-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E5171731E789CAD00E41406 /* Build configuration list for PBXProject "Antique Book Scan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5171881E789CAD00E41406 /* Debug */,
+				6E5171891E789CAD00E41406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E51718A1E789CAD00E41406 /* Build configuration list for PBXNativeTarget "Antique Book Scan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E51718B1E789CAD00E41406 /* Debug */,
+				6E51718C1E789CAD00E41406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E5171701E789CAD00E41406 /* Project object */;
+}
