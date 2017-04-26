@@ -1,7 +1,7 @@
-![ImagePicker](https://github.com/hyperoslo/ImagePicker/blob/master/Resources/ImagePickerPresentation.png)
+![Antique Book Scan](http://i.imgur.com/Naamo0W.jpg)
 
 [![License](https://img.shields.io/cocoapods/l/ImagePicker.svg?style=flat)](https://github.com/dritani/Antique-Book-Scan/blob/master/LICENSE.txt)
-[![Platform](https://img.shields.io/cocoapods/p/ImagePicker.svg?style=flat)]
+![Platform](https://img.shields.io/cocoapods/p/ImagePicker.svg?style=flat)
 ![Swift](https://img.shields.io/badge/%20in-swift%203.0-orange.svg)
 
 ## Description
@@ -24,4 +24,4 @@ Select the OCR speed in the bottom right corner, then either take a picture with
 
 ## License
 
-**Antique Book scan** is available under the MIT license. See the [LICENSE](https://github.com/dritani/Antique-Book-Scan/blob/master/LICENSE.txt) file for more info.
+**Antique Book Scan** is available under the MIT license. See the [LICENSE](https://github.com/dritani/Antique-Book-Scan/blob/master/LICENSE.txt) file for more info.
