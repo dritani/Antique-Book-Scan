@@ -1,4 +1,4 @@
-![Antique Book Scan](http://i.imgur.com/Naamo0W.jpg)
+![Antique Book Scan](http://i.imgur.com/d54G84p.jpg)
 
 [![License](https://img.shields.io/cocoapods/l/ImagePicker.svg?style=flat)](https://github.com/dritani/Antique-Book-Scan/blob/master/LICENSE.txt)
 ![Platform](https://img.shields.io/cocoapods/p/ImagePicker.svg?style=flat)
